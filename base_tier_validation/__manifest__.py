@@ -19,6 +19,7 @@
         "data/mail_data.xml",
         "security/tier_validation_security.xml",
         "security/ir.model.access.csv",
+        "security/tier_validation_security.xml",
         "views/tier_definition_view.xml",
         "views/tier_review_view.xml",
         "views/assets_backend.xml",

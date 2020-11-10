@@ -6,6 +6,14 @@
         <field name="global" eval="True" />
         <field
             name="domain_force"
-        >['|',('company_id','=',False),('company_id','child_of',[user.company_id.id])]</field>
+        >['|',('company_id','=',False),('company_id', 'child_of',[user.company_id.id])]</field>
+    </record>
+    <record id="tier_review_comp_rule" model="ir.rule">
+        <field name="name">Tier Review multi-company</field>
+        <field name="model_id" ref="model_tier_review" />
+        <field name="global" eval="True" />
+        <field
+            name="domain_force"
+        >['|',('company_id','=',False),('company_id', 'child_of',[user.company_id.id])]</field>
     </record>
 </odoo>
