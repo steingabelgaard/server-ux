@@ -9,6 +9,7 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo12-addon-barcode_action',
+        'odoo12-addon-base_duplicate_security_group',
         'odoo12-addon-base_export_manager',
         'odoo12-addon-base_import_security_group',
         'odoo12-addon-base_optional_quick_create',
@@ -17,6 +18,7 @@ setuptools.setup(
         'odoo12-addon-base_technical_features',
         'odoo12-addon-base_tier_validation',
         'odoo12-addon-base_tier_validation_formula',
+        'odoo12-addon-base_tier_validation_forward',
         'odoo12-addon-base_user_locale',
         'odoo12-addon-chained_swapper',
         'odoo12-addon-date_range',
@@ -33,5 +35,6 @@ setuptools.setup(
     classifiers=[
         'Programming Language :: Python',
         'Framework :: Odoo',
+        'Framework :: Odoo :: 12.0',
     ]
 )
